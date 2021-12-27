@@ -24,7 +24,7 @@ public class TvTest {
         여기까지 IoC, DI 를 이해하기 위한 프로젝트!
         * */
 
-        // Tv tv =
+        // Null 체크도 해야하고 해야할거 많긴함, 감만 잡는 프로젝트
         System.out.println("len : " + args.length);
         for (int i = 0; i < args.length; i++) {
             System.out.println(args[i]);
