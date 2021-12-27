@@ -1,11 +1,11 @@
 package com.koreait.spring.basic;
 
 public class SamsungTv {
-    private HamanSpeaker speaker;
+    private Speaker speaker;
 
     public SamsungTv() {
         System.out.println(" -- SamsungTv Created --");
-        speaker = new HamanSpeaker();
+        speaker = new AppleSpeaker();
     }
 
     public void volumeUp() {

@@ -1,7 +1,7 @@
 package com.koreait.spring.basic;
 
 public class LgTv {
-    private AppleSpeaker speaker;
+    private Speaker speaker;
 
     public LgTv() {
         System.out.println(" -- LgTv Created --");
